@@ -11,7 +11,7 @@ print("Soy un modesto ",end="")
 print("programa de ordenador...")
 print("Bienvenido al Curso.\t" "Este es el saludo nº ", numOrden)  # \t crea un tabulado
 numOrden=numOrden +1 # se aumenta en una unidad el valor de la variable. no vale numOrden++
-print("Bienvenido a Java.\t" "Este es el saludo nº ", numOrden)
+print(f"Bienvenido a Java.\t" f"Este es el saludo nº {numOrden}") # si no pongo f delante saldra impreso el codigo literalmente
 print("\nFin programa...")    # \n antes del texto, salta una linea antes de escribir
 
 # SALIDA ESPERADA:
